@@ -1,0 +1,26 @@
+Drowsebook website & promotional assets
+========================================
+
+The contents of this repository — the landing page (`index.html`,
+`privacy.html`, `terms.html`, `styles.css`, `i18n.js`, `404.html`,
+`README.md` and its translations), and the icons and posters under
+`icons/` and `posters/` — are © 2026 hooosberg. All rights reserved.
+
+The iOS app **Drowsebook (入梦书)** itself is closed-source. The source
+code is not contained in this repository.
+
+If you would like to reuse any text or images here — for translation,
+press / blog coverage, academic discussion, screenshots, or derivative
+works — please open a GitHub issue or contact zikedece@proton.me. We
+respond to good-faith requests quickly.
+
+Fair-use commentary, journalism, and accessibility-related reuse never
+require permission.
+
+----------------------------------------------------------------
+
+The third-party software linked from the website (Apple system voices,
+AVFoundation, PDFKit, StoreKit, SwiftData, SwiftUI) belongs to its
+respective owners. Sample books bundled with the iOS app are
+public-domain works — see the in-app About panel and the README for
+provenance.

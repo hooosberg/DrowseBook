@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Drowsebook (入梦书)</title>
+  <meta name="description" content="Drowsebook (入梦书) iOS app privacy policy. The app collects no personal data, contacts no external server by default, and stores everything on-device.">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./icons/app-icon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./icons/app-icon-180.png">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="./" class="nav-brand">
+      <img src="./icons/app-icon-64.png" alt="Drowsebook">
+      <span><span class="name-cn">入梦书</span><span class="name-en">Drowsebook</span></span>
+    </a>
+  </div>
+</nav>
+
+<div class="legal-page">
+  <a href="./" class="back-link">← Back to home</a>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: May 12, 2026</p>
+
+  <p>Drowsebook (入梦书) — hereafter "the App" or "we" — is an iPhone
+  application for reading your own books (EPUB, PDF, TXT, MOBI, AZW3) and
+  listening to them with Apple's built-in system voices. This policy
+  describes how the App handles your data, and addresses every disclosure
+  required by Apple's <a href="https://developer.apple.com/app-store/app-privacy-details/">App
+  Privacy Details</a> ("Privacy Nutrition Labels") framework.</p>
+
+  <h2>The short version</h2>
+  <ul>
+    <li><strong>The App collects nothing.</strong> No personal identifiers,
+        no user content, no usage data, no diagnostics, no financial data.</li>
+    <li><strong>The App contacts no external server.</strong> There are no
+        network requests for content, no analytics SDKs, no third-party
+        trackers, and no ad networks. (The only network traffic is Apple's
+        own StoreKit verification of your one-time in-app purchase.)</li>
+    <li><strong>Your books stay on your device.</strong> Imported files,
+        reading progress, bookmarks, chapter outlines, and reader
+        preferences live only inside the App's sandbox on your iPhone.
+        Book content is <strong>never</strong> uploaded to iCloud or to any
+        other server.</li>
+  </ul>
+
+  <h2>Mapping to Apple's "App Privacy Details"</h2>
+  <p>The following matches the questionnaire we filed with App Store
+  Connect:</p>
+  <table>
+    <tr><th>Category</th><th>Collected?</th><th>Use</th></tr>
+    <tr><td>Contact Info (email, phone, name, address)</td><td>No</td><td>—</td></tr>
+    <tr><td>Health &amp; Fitness</td><td>No</td><td>—</td></tr>
+    <tr><td>Financial Info</td><td>No</td><td>—</td></tr>
+    <tr><td>Location (precise / coarse)</td><td>No</td><td>—</td></tr>
+    <tr><td>Sensitive Info (race, religion, sexual orientation…)</td><td>No</td><td>—</td></tr>
+    <tr><td>Contacts</td><td>No</td><td>—</td></tr>
+    <tr><td>User Content (photos, messages, books, other)</td><td>No</td><td>—</td></tr>
+    <tr><td>Browsing History</td><td>No</td><td>—</td></tr>
+    <tr><td>Search History</td><td>No</td><td>—</td></tr>
+    <tr><td>Identifiers (user ID, device ID, advertising ID)</td><td>No</td><td>—</td></tr>
+    <tr><td>Purchases</td><td>No (handled by Apple StoreKit)</td><td>—</td></tr>
+    <tr><td>Usage Data / Product Interaction / Advertising Data</td><td>No</td><td>—</td></tr>
+    <tr><td>Diagnostics (crash logs, performance data)</td><td>No</td><td>—</td></tr>
+  </table>
+  <p>Result: the App's privacy label on the App Store reads
+  <strong>"Data Not Collected"</strong>.</p>
+
+  <h2>What the App stores on your device</h2>
+  <p>The following items live inside the App's sandbox (the
+  <code>Documents/</code> and <code>Library/</code> directories provided by
+  iOS) and are accessible only to you. None of it leaves your device
+  unless you explicitly export or share a file via the iOS share sheet.</p>
+  <table>
+    <tr><th>Item</th><th>Storage</th></tr>
+    <tr><td>Imported book files (EPUB / PDF / TXT / MOBI / AZW3)</td><td>App sandbox <code>Documents/</code></td></tr>
+    <tr><td>Reading progress and last-opened book</td><td>SwiftData local database</td></tr>
+    <tr><td>Bookmarks and chapter-outline state</td><td>SwiftData local database</td></tr>
+    <tr><td>Reader theme, font, font-size preferences</td><td><code>UserDefaults</code></td></tr>
+    <tr><td>Selected TTS voice, sleep-timer duration, AirPods skip preference</td><td><code>UserDefaults</code></td></tr>
+    <tr><td>One-time-purchase entitlement (Drowsebook Buy Once / Supporter)</td><td>Apple StoreKit transaction record</td></tr>
+  </table>
+  <p>You can review the App's storage footprint at any time in
+  <em>iOS Settings → General → iPhone Storage → Drowsebook</em>, or delete
+  all local data by uninstalling the App.</p>
+
+  <h2>iCloud sync</h2>
+  <p>The App does <strong>not</strong> upload book files to iCloud.
+  Reading-position sync (just the cursor — chapter index, paragraph
+  offset, and an optional bookmark list) is an <strong>optional</strong>
+  feature, <strong>off by default</strong>. When you turn it on, the App
+  uses Apple's CloudKit <em>private</em> database (your own iCloud
+  account, end-to-end encrypted, unreadable by the developer); no book
+  text, no book file, no listening audio is ever transmitted. You can turn
+  it off again at any time in the App's settings, and your existing
+  on-device reading position is unaffected.</p>
+
+  <h2>System permissions</h2>
+  <table>
+    <tr><th>Permission</th><th>Requested?</th><th>Why</th></tr>
+    <tr><td>Camera</td><td>No</td><td>—</td></tr>
+    <tr><td>Microphone</td><td>No</td><td>—</td></tr>
+    <tr><td>Location</td><td>No</td><td>—</td></tr>
+    <tr><td>Contacts / Calendar / Reminders</td><td>No</td><td>—</td></tr>
+    <tr><td>Photo Library</td><td>No</td><td>—</td></tr>
+    <tr><td>Local Network / Bluetooth</td><td>No</td><td>—</td></tr>
+    <tr><td>Speech Synthesis (AVSpeechSynthesizer)</td><td>Used silently</td>
+        <td>Apple's on-device system voices speak the book text. Audio is
+            generated locally on your device; nothing is sent to a server.</td></tr>
+    <tr><td>Files / iCloud Drive picker</td><td>Only when you tap "Import"</td>
+        <td>iOS shows the standard document picker so you can pick a book
+            file. The App receives only the file you choose, copies it into
+            its sandbox, and never browses your wider file system.</td></tr>
+    <tr><td>Notifications</td><td>No</td><td>—</td></tr>
+  </table>
+
+  <h2>Third-party services and SDKs</h2>
+  <p>The App <strong>integrates no third-party</strong> analytics,
+  advertising, crash-reporting, authentication, or social-login SDK.
+  Specifically, none of the following are present in the App binary:</p>
+  <ul>
+    <li>Firebase / Google Analytics / Google AdMob</li>
+    <li>Mixpanel / Amplitude / PostHog / Segment</li>
+    <li>Sentry / Bugsnag / Crashlytics</li>
+    <li>RevenueCat / Adapty / Qonversion (we use Apple StoreKit 2 directly)</li>
+    <li>Facebook SDK / TikTok / AppLovin / Unity Ads / any ad network</li>
+    <li>OneSignal / Pusher / Airship / any push-notification SDK</li>
+  </ul>
+  <p>The App depends only on Apple system frameworks: SwiftUI, UIKit,
+  SwiftData, Foundation, PDFKit, AVFoundation (for AVSpeechSynthesizer),
+  StoreKit 2, and CloudKit (only when the user opts into reading-position
+  sync).</p>
+
+  <h2>In-app purchases</h2>
+  <p>Drowsebook offers two non-consumable in-app purchases:
+  <strong>Drowsebook Buy Once</strong> ($19.99) unlocks the full app
+  forever, and <strong>Drowsebook Supporter</strong> ($39.99) is an
+  optional supporter tier that grants the same feature set with a thank-you
+  note. Both are Non-Consumable, both support Family Sharing, and neither
+  is a subscription. Apple handles the purchase transaction; we verify it
+  using StoreKit 2 on-device. No third-party purchase aggregator (e.g.
+  RevenueCat) is involved, and the App never sees your Apple ID, payment
+  method, or billing address.</p>
+
+  <h2>Imported books and DRM</h2>
+  <p>You can only import DRM-free files. The App does not, and will not,
+  contain code to strip DRM from Kindle, Nook, Apple Books, Google Play
+  Books, Kobo, or any other store-protected format. If a file you try to
+  import is DRM-protected, the App will refuse to open it and you'll see a
+  short notice. The content of the books you do import is private to you
+  and never seen, indexed, summarised, or transmitted by the App.</p>
+
+  <h2>Children's privacy</h2>
+  <p>Drowsebook is not directed at children under 13 and we do not collect
+  any information from children (in fact, we do not collect any information
+  from anyone). The reading content is whatever you import; the App itself
+  contains no advertising, no in-app social features, and no chat.</p>
+
+  <h2>California (CCPA / CPRA), EU (GDPR), China (PIPL)</h2>
+  <p>Because the App <strong>collects no personal information at all</strong>,
+  the substantive obligations these regulations impose on a "personal
+  information processor" — purpose disclosure, consent capture,
+  portability, deletion requests, cross-border-transfer registration — do
+  not arise within this App. If you reside in one of these jurisdictions
+  and still wish to exercise an information or complaint right, please
+  contact us using the address below.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy ever changes (for example if any form of data collection
+  is introduced in the future), we will: (1) update the "Last updated"
+  date at the top of this page; (2) preserve the full change history in
+  the GitHub commit log of <code>privacy.html</code>; and (3) display a
+  prominent in-app notice asking you to re-consent.</p>
+
+  <h2>Contact</h2>
+  <ul>
+    <li>Email: <a href="mailto:zikedece@proton.me">zikedece@proton.me</a></li>
+    <li>GitHub Issues: <a href="https://github.com/hooosberg/DrowseBook/issues">hooosberg/DrowseBook/issues</a></li>
+  </ul>
+
+  <hr style="margin:40px 0;border:none;border-top:1px solid var(--line)">
+  <p style="font-size:14px;color:var(--muted)">This English text is the
+  authoritative version of the Drowsebook privacy policy. Translations may
+  be provided in the future for convenience but, where they differ, the
+  English text controls.</p>
+</div>
+
+</body>
+</html>
