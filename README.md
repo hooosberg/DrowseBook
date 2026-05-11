@@ -22,7 +22,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/platform-iOS%2017+-444.svg" alt="iOS 17+">
   <img src="https://img.shields.io/badge/device-iPhone-555.svg" alt="iPhone">
-  <img src="https://img.shields.io/badge/price-%2419.99%20one--time-1e88e5.svg" alt="$19.99 one-time">
+  <img src="https://img.shields.io/badge/status-Coming%20Soon-orange.svg" alt="Coming Soon">
   <br>
   <img src="https://img.shields.io/badge/formats-EPUB%20%C2%B7%20PDF%20%C2%B7%20TXT%20%C2%B7%20MOBI%20%C2%B7%20AZW3-43a047.svg" alt="5 book formats">
   <img src="https://img.shields.io/badge/UI%20languages-4-43a047.svg" alt="4 UI languages">
@@ -49,7 +49,7 @@ The name **入梦书** ("the book that walks you into a dream") is the whole pro
 - **One quiet session at a time** — no streaks, no badges, no social graph, no recommendation feed. Open the app, resume your book, set a timer.
 - **Your books, your device** — files you import live in the app sandbox. Uninstall the app and everything goes with it. We never see a filename, let alone a page number.
 - **System voices, system polish** — narration uses Apple's built-in TTS voices. No cloud synthesis call, no per-minute quota, no extra subscription. Pair them with sleep-timer fade-out and AirPods double-tap ±15s skip.
-- **Buy once, keep forever** — one $19.99 in-app purchase unlocks the full library. No subscription, no ads, no upsell.
+- **No subscription, no ads** — bring your own books, listen the way you want, never see an upsell.
 
 ---
 

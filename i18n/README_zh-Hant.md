@@ -22,7 +22,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/platform-iOS%2017+-444.svg" alt="iOS 17+">
   <img src="https://img.shields.io/badge/device-iPhone-555.svg" alt="iPhone">
-  <img src="https://img.shields.io/badge/price-%2419.99%20%E4%B8%80%E6%AC%A1%E8%B2%B7%E6%96%B7-1e88e5.svg" alt="$19.99 一次買斷">
+  <img src="https://img.shields.io/badge/status-%E5%8D%B3%E5%B0%87%E4%B8%8A%E6%9E%B6-orange.svg" alt="即將上架">
   <br>
   <img src="https://img.shields.io/badge/formats-EPUB%20%C2%B7%20PDF%20%C2%B7%20TXT%20%C2%B7%20MOBI%20%C2%B7%20AZW3-43a047.svg" alt="5 種格式">
   <img src="https://img.shields.io/badge/UI-4%20%E7%A8%AE%E8%AA%9E%E8%A8%80-43a047.svg" alt="4 種語言">
@@ -49,7 +49,7 @@
 - **一次安靜的閱讀** —— 沒有連勝、沒有徽章、沒有社群、沒有推薦動態。打開 App、續讀、定時。
 - **你的書,你的裝置** —— 匯入的檔案保留在 App 沙盒內,移除 App 即一併清除。我們永遠看不到檔名,更看不到你讀到第幾頁。
 - **系統人聲,系統級體驗** —— 朗讀使用 Apple 內建 TTS 人聲。不走雲端、不限分鐘、不另外訂閱。配合睡眠定時淡出與 AirPods 雙擊 ±15 秒。
-- **一次買斷,永久使用** —— 一次性 $19.99 內購解鎖完整功能。不訂閱、無廣告、無加購。
+- **不訂閱、無廣告** —— 用自己的書、依自己的步調聽,沒有任何加購視窗。
 
 ---
 

@@ -22,7 +22,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/platform-iOS%2017+-444.svg" alt="iOS 17+">
   <img src="https://img.shields.io/badge/device-iPhone-555.svg" alt="iPhone">
-  <img src="https://img.shields.io/badge/price-%2419.99%20%E4%B9%B0%E6%96%AD-1e88e5.svg" alt="$19.99 买断">
+  <img src="https://img.shields.io/badge/status-%E5%8D%B3%E5%B0%86%E4%B8%8A%E6%9E%B6-orange.svg" alt="即将上架">
   <br>
   <img src="https://img.shields.io/badge/formats-EPUB%20%C2%B7%20PDF%20%C2%B7%20TXT%20%C2%B7%20MOBI%20%C2%B7%20AZW3-43a047.svg" alt="5 种格式">
   <img src="https://img.shields.io/badge/UI-4%20%E7%A7%8D%E8%AF%AD%E8%A8%80-43a047.svg" alt="4 种语言">
@@ -49,7 +49,7 @@
 - **一次安静的阅读** —— 没有连击、没有徽章、没有社交、没有推荐流。打开应用、续读、定时。
 - **你的书,你的设备** —— 导入的文件保存在应用沙盒里,卸载即清除。我们永远看不到文件名,更看不到你读到第几页。
 - **系统人声,系统级体验** —— 朗读用的是 Apple 内置 TTS 人声,不走云端、不限分钟、不再额外订阅。配合睡眠定时淡出、AirPods 双击 ±15 秒,刚刚好。
-- **一次买断,永久使用** —— 一次性 $19.99 内购解锁完整功能。不订阅、无广告、无增购。
+- **不订阅、无广告** —— 用自己的书、按自己的方式听,不会被任何加购窗口打断。
 
 ---
 

@@ -22,7 +22,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/platform-iOS%2017+-444.svg" alt="iOS 17+">
   <img src="https://img.shields.io/badge/device-iPhone-555.svg" alt="iPhone">
-  <img src="https://img.shields.io/badge/price-%2419.99%20%E4%B8%80%E5%9B%9E%E8%B3%BC%E5%85%A5-1e88e5.svg" alt="$19.99 一回購入">
+  <img src="https://img.shields.io/badge/status-%E9%85%8D%E4%BF%A1%E4%BA%88%E5%AE%9A-orange.svg" alt="配信予定">
   <br>
   <img src="https://img.shields.io/badge/formats-EPUB%20%C2%B7%20PDF%20%C2%B7%20TXT%20%C2%B7%20MOBI%20%C2%B7%20AZW3-43a047.svg" alt="5 形式">
   <img src="https://img.shields.io/badge/UI-4%20%E8%A8%80%E8%AA%9E-43a047.svg" alt="4 言語">
@@ -49,7 +49,7 @@
 - **一回の静かな読書** —— ストリークも、バッジも、ソーシャルも、レコメンドも、ありません。開いて、続きを読んで、タイマーをセット。
 - **あなたの本、あなたの端末** —— インポートしたファイルはアプリのサンドボックスに置かれます。アンインストールで全消去。私たちはファイル名すら見ません。
 - **システム音声、システム品質** —— 読み上げは Apple 内蔵 TTS。クラウド呼び出しなし、分単位の制限なし、追加サブスクなし。スリープタイマーのフェードアウト、AirPods ダブルタップ ±15 秒と相性ばっちり。
-- **買い切り、ずっと使える** —— $19.99 の一回購入で全機能解放。サブスクも広告も追加課金もなし。
+- **サブスクなし、広告なし** —— 自分の本を、自分の手元で、追加の課金窓口に煩わされず。
 
 ---
 
